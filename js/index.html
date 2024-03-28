@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!---Coding By CoderGirl!--->
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>TravelAgen</title>
+  <!---Custom Css File!--->
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header class="header">
+  <div class="container">
+    <nav>
+      <div class="logo">
+        <a href="#">Jaya<span>Travel.</span></a>
+      </div>
+      <ul>
+        <li><a href="#" class="nav-link active-navlink">Home</a></li>
+        <li><a href="#">Our Packages</a></li>
+        <li><a href="#">Call Us</a></li>
+      </ul>
+      <div class="buttons">
+        <a href="#" class="login">Log in</a>
+        <a href="#" class="btn">Register</a>
+      </div>
+    </nav>
+    <div class="content">
+      <h2>Your Trust Travel Agent's</h2>
+      <p>Your Happiness is Our Happiness, let's join with us.</p>
+    </div>
+  </div>
+</header>
+
+  <section class="home-section">
+    <div class="home-images">
+      <div class="home-link">
+        <img src="../assets/img-1.jpeg" alt="card">
+        <br>
+        <p>"Liburan jadi menyenangkan bersama travel agentku", nadia ormala.</p>
+      </div>
+      <div class="login-box">
+        <div class="home-link2">
+        <h1>Contact Us</h1>
+        <p>Sales akan menghubungi anda 1x24 jam setelah data kami terima.</p>
+        <br>
+        <br>
+          <form name="contactForm" method="post" onsubmit = "return validate()" action="#">
+            <label for="name">* Name</label><br>
+            <input type="text" id="name" name="name" placeholder="Your name" required>
+            <span class="errors"></span><br>
+        
+            <label for="email">* Email</label><br>
+            <input type="text" placeholder="Email address" id="email" name="email" required >
+            <span class="errors"></span><br>
+
+            <label for="tempat">* What are you interested for:</label><br>
+            <select name="tempat" id="tempat" required>
+              <option value="Sumatra">Pulau Sumatra</option>
+              <option value="Sulawesi">Pulau Sulawesi</option>
+              <option value="Jawa">Pulau Jawa</option>
+              <option value="Kalimantan">Pulau Kalimantan</option>
+              <option value="Papua">Pulau Papua</option>
+              </select>
+              <br><br><br>
+              <button type="button" id="send-button">Send</button>
+          </form>
+      </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="place-section"></section>
+  <div class="tempat">
+<h1>Our Package</h1>
+<p>Find the best cheap vacation with Expedia! Travel around the world and find holiday offers from fantastic destinations.</p>
+</div>
+    <section class="place-section">
+      <div class="place-images">
+        <div class="place-link">
+          <h3>Pulau Sumatra</h3>
+          <img src="../assets/t1.jpeg" alt="card">
+          <a href="#">Rp. 30.000.000,00</a>
+        </div>
+        <div class="place-link">
+          <h3>Pulau Kalimantan</h3>
+          <img src="../assets/t2.jpeg" alt="card">
+          <a href="#">Rp. 35.000.000,00</a>
+        </div>
+        <div class="place-link">
+          <h3>Pulau Jawa</h3>
+          <img src="../assets/t3.jpeg" alt="card">
+          <a href="#">Rp. 20.000.000,00</a>
+        </div>
+        <div class="place-link">
+          <h3>Pulau Papua</h3>
+          <img src="../assets/t4.jpeg" alt="card">
+          <a href="#">Rp. 50.000.000,00</a>
+        </div>
+      </div>
+    </section>
+</main>
+<script src="../js/script.js"></script>
+
+<footer>
+  <a href="#" class="footer-title">
+    Back to top
+  </a>
+  <div class="footer-items">
+    <ul>
+      <h3>Get to Know Us</h3>
+      <li><a href="#">About us</a></li>
+      <li><a href="#">Careers</a></li>
+    </ul>
+    <ul>
+      <h3>Connect with Us</h3>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Instagram</a></li>
+    </ul>
+    <ul>
+      <h3>Make Money with Us</h3>
+      <li><a href="#">Sell your local merchandise</a></li>
+      <li><a href="#">Protect and Build Your Travel</a></li>
+      <li><a href="#">Become an Affiliate</a></li>
+      <li><a href="#">Advertise Your Products</a></li>
+    </ul>
+    <ul>
+      <h3>Let Us Help You</h3>
+      <li><a href="#">Your Account</a></li>
+      <li><a href="#">Return Centre</a></li>
+      <li><a href="#">100% Purchase Protection</a></li>
+      <li><a href="#">Help</a></li>
+    </ul>
+  </div>
+</footer>
+</body>
+
+
+</html>
